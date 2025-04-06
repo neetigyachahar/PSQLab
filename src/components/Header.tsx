@@ -74,7 +74,10 @@ const Header: FC<HeaderProps> = ({
       <h1>PSQLab</h1>
       <div className="flex-1" />
 
-      <a href="/about">
+      <a
+        target="_blank"
+        href="https://dev.to/neetigyachahar/introducing-psqlab-your-in-browser-postgresql-playground-4anb"
+      >
         <Button variant="outline" className="gap-2 border-gray-500">
           <Info className="h-[1.2rem] w-[1.2rem]" />
           Learn more

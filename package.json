@@ -1,0 +1,51 @@
+{
+  "name": "psqlab",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.6.1",
+    "@codemirror/lang-sql": "^6.7.1",
+    "@codemirror/view": "^6.33.0",
+    "@electric-sql/pglite": "^0.2.5",
+    "@radix-ui/react-alert-dialog": "^1.1.1",
+    "@uiw/codemirror-theme-github": "^4.23.1",
+    "@uiw/codemirror-themes": "^4.23.1",
+    "@uiw/react-codemirror": "^4.23.1",
+    "class-variance-authority": "^0.7.0",
+    "idb": "^8.0.0",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.428.0",
+    "prism-react-renderer": "^2.3.1",
+    "psql-describe": "^0.1.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-simple-code-editor": "^0.14.1",
+    "tailwind-merge": "^2.5.2",
+    "vite-plugin-libcss": "^1.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/lodash": "^4.17.7",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.14"
+  }
+}
